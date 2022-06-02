@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+.main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  gap: 30px;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(
+    to right top,
+    #000000,
+    #451a2e,
+    #852864,
+    #c33ca9,
+    #f85bff
+  );
+  background-size: cover;
+}
+
+.clock-body {
+  position: relative;
+  min-width: 300px;
+  min-height: 300px;
+  background-color: rgb(26, 26, 26);
+  background-image: url(../images/clock-frame.png);
+  border-radius: 50%;
+  background-size: cover;
+  border: 20px solid rgb(0, 0, 0);
+}
+.hourHand,
+.secondHand,
+.minuteHand {
+  position: absolute;
+  transform-origin: bottom;
+  left: 50%;
+  background-color: rgb(255, 255, 255);
+  transform: translateX(-50%);
+  border-radius: 50px;
+}
+.secondHand {
+  width: 2px;
+  top: 15%;
+  height: 35%;
+  z-index: 10;
+  background: rgb(255, 14, 14);
+}
+.minuteHand {
+  width: 4px;
+  top: 18%;
+  height: 32%;
+  z-index: 1;
+}
+.hourHand {
+  width: 6px;
+  top: 25%;
+  height: 25%;
+  z-index: 1;
+}
+.digital-clock {
+  word-wrap: break-word;
+  background-color: #dadada4f;
+  font-size: 80px;
+  text-align: center;
+  padding: 15px 30px;
+  border-radius: 10px;
+  font-weight: 700;
+  letter-spacing: 2px;
+  font-family: "Lucida Grande", Arial, sans-serif;
+  color: rgb(238, 238, 238);
+}
+.dot {
+  overflow: hidden;
+  position: absolute;
+  width: 20px;
+  height: 20px;
+  background: #000000;
+  top: 50%;
+  left: 50%;
+  border-radius: 50%;
+  z-index: 100;
+  transform: translate(-50%, -50%);
+}
