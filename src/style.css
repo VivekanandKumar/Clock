@@ -85,3 +85,8 @@
   z-index: 100;
   transform: translate(-50%, -50%);
 }
+@media screen and (max-width: 600px) {
+  .digital-clock {
+    font-size: 50px;
+  }
+}
