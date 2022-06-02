@@ -1,11 +1,10 @@
-# Analog And Digital Clock
+# **Analog And Digital Clock**
 
-### Technologies used
+### **Technologies used**
+- HTML
+- CSS
+- JQuery
 
-    HTML
-    CSS
-    JQuery
-
-### Screenshots
+### **Screenshots**
 
 <img src="./images/clock.png">
