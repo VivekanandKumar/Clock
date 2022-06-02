@@ -7,6 +7,7 @@
 - JQuery
 
 ### **Screenshots**
-
-<img src="./images/clock.png"> 
-<img src="./images/mobile.png">
+<p float="left">
+  <img src="./images/clock.png" width="800" /> 
+  <img src="./images/mobile.png" width="200" />
+</p>
